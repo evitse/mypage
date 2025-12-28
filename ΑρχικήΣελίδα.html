@@ -1,0 +1,119 @@
+<!DOCTYPE html> 
+<html lang="el"> 
+<head> 
+<meta name="viewport" content="width=device-width, initial-scale=1", charset="UTF-8">
+	<title> Αρχική Σελίδα </title>  	
+	<link rel="stylesheet" href="styl.css">    
+</head> 
+<body> 
+<nav class="topnav">	
+  <a class="active" href="ΑρχικήΣελίδα.html">Αρχική Σελίδα</a>
+  <a href="seconddocument.html">Images</a>
+  <a href="epikoinonia.html">Media</a>
+  <a href="Canvas.html">Canvas</a>
+  <a href="Events.html">Events </a>
+</nav>
+<div style="padding-left: 30px">
+  
+  <h1>Hello World</h1>
+  <a href="https://www.katartisi.gr/" class="secondary-title" title = "Νίκος Μπαλατσούκας" ><B>ΚΕΚ Τεχνικές Σχολές Επιλητηρίου Ηρακλείου</B></a>
+ 
+  <h2> Εικόνα ως σύνδεσμος </h2>
+  <p><a href="https://www.katartisi.gr/"> 
+    <img src = "heraklion1.jpg" width = "200"> 
+ 
+  <h2> Εικόνα με περίγραμμα ως σύνδεσμος </h2>
+  <p><a href="https://www.katartisi.gr/"> 
+    <img src = "heraklion1.jpg" width = "200" border ="3"> 
+    </a></p> 
+  
+  <h2> Button ως σύνδεσμος με χρήση javascript  </h2>
+  <input type=button onClick="parent.location='https://www.katartisi.gr/'" 
+  value='click here to open katartisi.com'> 
+  
+  <h2> Κουμπί ως σύνδεσμος με javascript:  </h2>
+  <img src = "heraklion-harbour.jpg" width = "200" border = "3"  
+  onClick="parent.location='https://www.katartisi.gr/'"> 
+
+  <h2> Επικεφαλίδα ως σύνδεσμος με javascript:  </h2>
+  <h5  
+  onClick="parent.location='https://www.katartisi.gr/'"> 
+  
+  
+  
+  <h2> Παράδειγμα με παράγραφο</h2>
+  <p class="secondary-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores facere! Mollitia reiciendis, libero, ex deserunt doloremque voluptate possimus aperiam deleniti ducimus accusantium facilis vero dicta nihil quo ratione vel?</p>
+  <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores facere! Mollitia reiciendis, libero, ex deserunt doloremque voluptate possimus aperiam deleniti ducimus accusantium facilis vero dicta nihil quo ratione vel?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores facere! Mollitia reiciendis, libero, ex deserunt doloremque voluptate possimus aperiam deleniti ducimus accusantium facilis vero dicta nihil quo ratione vel?</p>
+  <p id="bimage">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, asperiores facere! Mollitia reiciendis, libero, ex deserunt doloremque voluptate possimus aperiam deleniti ducimus accusantium facilis vero dicta nihil quo ratione vel?</p>
+<p><font color="red"> Καλημέρα </font></p>
+  <form >
+    First name: <input type = "text" name =
+    "first_name" />
+    <br>
+    Last name: <input type = "text" name =
+    "last_name" />
+    </form><br>
+    
+    <form >
+      <input type = "radio" name = "sex"
+      value="male">Male
+      <br>
+      <input type = "radio" name = "sex"
+      value="Female">Female
+      </form> <br>
+
+      <form name="input" action="html_form_submit.asp" method="get">
+Username: <input type="text"
+name="user"><br><br>
+<Input type="submit" value ="Υποβολή">
+</form><br>
+<form >
+  I have a bike:
+  <input type="checkbox" name="vehicle"
+  value="Bike">
+  <br>
+  I have a car:
+  <input type="checkbox" name= "vehicle"
+  value="car">
+  </form><br>
+  <form >
+    User ID : <input type = "text" name =
+    "user_id" />
+    <br>
+    Password: <input type = "password" name =
+    "password" />
+    </form><br><br>
+    <form action="/action_page.php">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname" value="John"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname" value="Doe"><br><br>
+      <input type="submit" value="Submit">
+    </form> 
+    
+    <h2> Παράδειγματα με λίστες</h2>
+    <ul>
+      <li>Ένα</li>
+      <li>Δύο</li>
+      <li>Τρία</li>
+      </ul>
+      
+      <ol>
+      <li>Ένα</li>
+      <li>Δύο</li>
+      <li>Τρία</li>
+      </ol>
+    
+      <h3> Λίστα ορισμών</h3>
+      <dl> 
+        <dt>Στοιχείο 1</dt> 
+        <dd>Περιγραφή στοιχείου 1</dd> 
+        <dt>Στοιχείο 1</dt> 
+        <dd>Περιγραφή στοιχείου 2</dd> 
+      </dl> 
+    </body> 
+</div>
+</body> 
+
+</html> 

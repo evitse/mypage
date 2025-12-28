@@ -1,0 +1,178 @@
+ h1, h2, h3 { 
+	color:rgb(252, 6, 6); 
+  text-align:center;
+  border: ridge;
+  /*border-bottom: 10px dotted black;*/
+  /*border-left: 3px solid black;*/
+  /*border-top: thick double #32a1ce;*/
+  /*background-color: rgba(7, 229, 236, 0.4);*/
+  /*background-color: blue;*/
+
+
+} 
+
+h3 {
+  border: 2px solid black;
+  border-radius: 40px;
+  /*padding: 20px;
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px;*/
+  /*padding: 30px 10px 2px 150px;*/
+  /*margin: 30px;*/
+  margin: 30px, 15px, 20px, 10px;
+  /*width: 80%;*/
+ /* height: 80px;*/
+ max-width:none;
+}
+
+h1:hover{
+  color:red;
+  background-color:yellow; 
+  }
+  
+/* να ξαναδώ τις επικεφαλίδες */
+
+/*a {
+	color: rgb(198, 240, 14);
+  display: inline-block;
+
+}*/
+
+a { 
+  color: yellow; 
+  /*background-color: red; */
+
+  text-decoration: none !important; 
+} 
+a:hover { 
+  color: rgb(255, 208, 0); 
+  background-color: transparent; 
+  text-decoration: underline; 
+} 
+a:visited { 
+  color: pink; 
+  background-color: transparent; 
+  text-decoration: none; 
+} 
+
+body{
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 24px;
+background-color: rgb(46, 241, 79);
+/*background-image: url(heraklion-harbour.jpg);*/
+background: url(heraklion-harbour.jpg) no-repeat center center fixed; 
+/*background: url(heraklion-harbour.jpg) no-repeat right top; */
+/*background-size: 100% 100%;*/
+background-size: cover;
+/*background-attacment: fixed;*/
+
+} 
+p {
+  font-size: 24px;
+  /*border: dotted 10px rgba(217, 255, 0, 0.911);*/
+  /*border-top-left-radius: 250px 100px;*/
+  /*text-align: center;*/
+  /*text-align:right; */
+  text-align:left; 
+  /*text-align:justify;*/
+  font-family: Georgia;
+  /*font-size:50%;*/
+  /*font-style: bold;*/
+  /*font-style: italic;*/
+  font-style: oblique;
+  /*text-decoration: underline;*/
+  /*text-decoration: overline;*/
+  /*text-decoration: line-through;*/
+  /*text-transform: uppercase;*/
+  /*text-transform: capitalize;*/
+  /*text-transform: lowercase;*/
+  text-indent: 30px;
+  /*direction: rtl;*/
+  word-spacing: 10px;
+  line-height: 1.8;
+
+
+}
+/*img { 
+  border: 1px solid #ddd; 
+  border-radius: 4px; 
+  padding: 5px; 
+  width: 150px; 
+} 
+*/
+
+/*img { 
+  float: left; 
+  width: 30%; 
+  padding: 5px; 
+}
+*/
+
+#bimage {
+  border-image: url(Χωρίςτίτλο.jpg) 30 round;
+  border: 10px solid transparent;
+  padding: 15px;
+
+
+
+}
+
+.secondary-title {
+  font-size: 2ex;
+  background-color: rgb(252, 9, 150) dotted 10px rgba(217, 255, 0, 0.911)
+  }
+
+#first {
+    background-color: red;
+  }
+
+  
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: rgba(221, 221, 221, 0.514);
+  color: rgb(7, 7, 7);
+}
+
+.topnav a.active {
+  background-color: rgb(46, 241, 79);
+  color: white;
+}
+/*script {
+  font-size: 30px;
+}*/
+
+.droptarget {
+  float: left; 
+  width: 100px; 
+  height: 35px;
+  margin: 15px;
+  padding: 10px;
+  border: 1px solid #f70404;
+}
+ul{
+ /*list-style-type: square; */
+ /*list-style-type: disc ; */
+ /*list-style-type: circle; */
+ /*list-style-type: none; */
+ list-style-image: url('lamp.png');
+
+}
+ol{
+  /*list-style-type: upper-roman;*/
+  /*list-style-type:upper-alpha;*/
+  /*list-style-type:lower-alpha;*/ 
+}
